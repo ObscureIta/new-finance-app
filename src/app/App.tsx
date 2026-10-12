@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import { Dashboard } from './pages/Dashboard';
-import { Operations } from './pages/Operations';
+import { Dashboard } from '@pages/dashboard/index';
+import { Operations } from '@pages/operations/index';
 import './App.css';
 
 export default function App() {
